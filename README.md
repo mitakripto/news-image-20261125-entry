@@ -38,7 +38,7 @@ Orwell art-deco register: navy masthead, black serif, red accents, gold rules.
 
 - `draw.py` — deterministic Pillow renderer (fixed fonts, no network,
   no randomness). Run `python3 draw.py` to rebuild `entry.png`.
-- `entry.png` — the finished 1024×1024 page (220,477 bytes).
+- `entry.png` — the finished 1024×1024 page (199,994 bytes).
 - `main.py` — the entry program: copies `entry.png` to
   `/output/entry.png` (or `$MAKEFUN_OUTPUT_DIR`). Two runs are
   byte-identical.
